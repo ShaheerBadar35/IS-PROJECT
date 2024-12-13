@@ -1,0 +1,68 @@
+
+
+{% extends "base.html" %}
+{% block content %}
+<h2>Passenger Dashboard</h2>
+
+<h3>Post a Ride Request</h3>
+<form method="POST">
+    <label for="source">Source:</label>
+    <input type="text" id="source" name="source" required>
+    
+    <label for="destination">Destination:</label>
+    <input type="text" id="destination" name="destination" required>
+    
+    <button type="submit">Post Request</button>
+</form>
+<h3>Active Ride Requests</h3>
+<ul>
+    {% for ride in ride_requests %}
+        <li>
+            <strong>From:</strong> {{ ride['source'] }} 
+            <strong>To:</strong> {{ ride['destination'] }} 
+            <strong>Status:</strong> {{ ride['status'] }}
+        </li>
+    {% else %}
+        <li>No active ride requests found.</li>
+    {% endfor %}
+</ul>
+
+<h3>Your Accepted Rides</h3>
+<ul>
+    {% for ride in accepted_rides %}
+        <li>
+            <strong>From:</strong> {{ ride.source }}<br> 
+            <strong>To:</strong> {{ ride.destination }}<br> 
+            <strong>Status:</strong> {{ ride.status }} <br>
+            <strong>Driver License:</strong> {{ ride['driver_license'] }} <br><br>
+            <a href="tel:+{{ ride.driver_phone }}" style="display: inline-block; padding: 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Call Driver</a>
+        </li>
+    {% else %}
+        <li>No accepted rides found.</li>
+    {% endfor %}
+</ul>
+
+
+<script>
+    function makeCall(driverId) {
+        //function to trigger a backend service to initiate a call
+        fetch(`/make-call/${driverId}`, {
+            method: 'POST',
+        })
+        .then(response => {
+            if (response.ok) {
+                alert("Call initiated successfully!");
+            } else {
+                alert("Failed to initiate the call. Please try again.");
+            }
+        })
+        .catch(error => {
+            console.error("Error initiating call:", error);
+            alert("An error occurred. Please try again.");
+        });
+    }
+</script>
+{% endblock %}
+
+
+

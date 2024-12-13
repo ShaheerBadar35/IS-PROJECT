@@ -1,0 +1,69 @@
+2024-11-27 17:39:54,306 - INFO - Logged in: maryams@gmail.com, Type: passenger, Connection: 127.0.0.1, Time: 2024-11-27 17:39:54.306021
+
+2024-11-27 18:17:26,392 - ERROR - Failed to send OTP: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3825faf9a5asm16255684f8f.23 - gsmtp')
+2024-11-27 18:24:53,200 - ERROR - Failed to send OTP: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3825fbedad6sm16257303f8f.91 - gsmtp')
+2024-11-27 18:29:46,971 - ERROR - Failed to send OTP: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-434aa76a8e0sm21353875e9.15 - gsmtp')
+2024-11-27 18:34:09,220 - ERROR - Failed to send OTP: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3825fad62fasm16289723f8f.15 - gsmtp')
+2024-11-27 19:18:58,825 - INFO - Logged in: k214676@gmail.com, Type: passenger, Connection: 127.0.0.1, Time: 2024-11-27 19:18:58.825952
+
+2024-11-27 19:20:03,714 - INFO - Logged in: saudj@gmail.com, Type: driver, Connection: 127.0.0.1, Time: 2024-11-27 19:20:03.714274
+
+2024-11-27 20:45:46,702 - INFO - Logged in: maryams@gmail.com, Type: passenger, Connection: 127.0.0.1, Time: 2024-11-27 20:45:46.702020
+
+2024-11-27 20:46:40,760 - INFO - Logged in: saudj@gmail.com, Type: driver, Connection: 127.0.0.1, Time: 2024-11-27 20:46:40.760759
+
+2024-11-27 20:47:03,681 - INFO - Logged in: maryams@gmail.com, Type: passenger, Connection: 127.0.0.1, Time: 2024-11-27 20:47:03.681114
+
+2024-11-29 17:56:22,125 - INFO - Logged in: maryams@gmail.com, Type: passenger, Connection: 127.0.0.1, Time: 2024-11-29 17:56:22.125218
+
+2024-11-29 17:57:24,556 - INFO - Logged in: usaidmay@gmail.com, Type: driver, Connection: 127.0.0.1, Time: 2024-11-29 17:57:24.556532
+
+2024-11-29 18:00:57,328 - INFO - Logged in: shaheerbadar35@gmail.com, Type: driver, Connection: 127.0.0.1, Time: 2024-11-29 18:00:57.328222
+
+2024-11-29 18:01:54,758 - INFO - Logged in: maryams@gmail.com, Type: passenger, Connection: 127.0.0.1, Time: 2024-11-29 18:01:54.758378
+
+2024-11-29 18:02:18,013 - INFO - Logged in: shaheerbadar35@gmail.com, Type: driver, Connection: 127.0.0.1, Time: 2024-11-29 18:02:18.013928
+
+2024-11-29 18:02:48,918 - INFO - Logged in: maryams@gmail.com, Type: passenger, Connection: 127.0.0.1, Time: 2024-11-29 18:02:48.918707
+
+2024-11-29 20:39:59,218 - ERROR - Failed to send OTP: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-434aa7e4df1sm87497975e9.39 - gsmtp')
+2024-11-29 20:41:37,102 - ERROR - Failed to send OTP: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-434a970da6asm49996425e9.1 - gsmtp')
+2024-11-29 20:41:48,554 - ERROR - Failed to send OTP: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-434aa7e4df1sm87543385e9.39 - gsmtp')
+2024-11-29 21:01:02,390 - INFO - Logged in: shaheerbadar35@gmail.com, Type: driver, Connection: 127.0.0.1, Time: 2024-11-29 21:01:02.390238
+
+2024-11-29 21:02:01,717 - INFO - Logged in: shaheerbadar35@gmail.com, Type: driver, Connection: 127.0.0.1, Time: 2024-11-29 21:02:01.717707
+
+2024-11-29 21:02:53,618 - INFO - Logged in: maryams@gmail.com, Type: passenger, Connection: 127.0.0.1, Time: 2024-11-29 21:02:53.618615
+
+2024-11-29 21:03:32,058 - INFO - Logged in: shaheerbadar35@gmail.com, Type: driver, Connection: 127.0.0.1, Time: 2024-11-29 21:03:32.058536
+
+2024-11-29 21:04:17,843 - INFO - Logged in: maryams@gmail.com, Type: passenger, Connection: 127.0.0.1, Time: 2024-11-29 21:04:17.843217
+
+2024-11-29 21:10:45,937 - INFO - Logged in: maryams@gmail.com, Type: passenger, Connection: 127.0.0.1, Time: 2024-11-29 21:10:45.937715
+
+2024-11-29 21:11:30,616 - INFO - Logged in: maryams@gmail.com, Type: passenger, Connection: 127.0.0.1, Time: 2024-11-29 21:11:30.616040
+
+2024-11-29 21:20:22,007 - INFO - Logged in: maryams@gmail.com, Type: passenger, Connection: 127.0.0.1, Time: 2024-11-29 21:20:22.007885
+
+2024-11-29 21:21:07,194 - INFO - Logged in: shaheerbadar35@gmail.com, Type: driver, Connection: 127.0.0.1, Time: 2024-11-29 21:21:07.194818
+
+2024-11-29 21:21:26,177 - INFO - Logged in: maryams@gmail.com, Type: passenger, Connection: 127.0.0.1, Time: 2024-11-29 21:21:26.177717
+
+2024-11-29 21:22:54,318 - INFO - Logged in: shaheerbadar35@gmail.com, Type: driver, Connection: 127.0.0.1, Time: 2024-11-29 21:22:54.318085
+
+2024-11-29 21:24:52,738 - INFO - Logged in: maryams@gmail.com, Type: passenger, Connection: 127.0.0.1, Time: 2024-11-29 21:24:52.738187
+
+2024-11-29 21:44:21,103 - INFO - Logged in: saudj@gmail.com, Type: driver, Connection: 127.0.0.1, Time: 2024-11-29 21:44:21.103316
+
+2024-11-29 21:44:41,276 - ERROR - Failed to send OTP: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-385ccd2e357sm5025045f8f.3 - gsmtp')
+2024-11-29 21:45:40,159 - INFO - Logged in: maryams@gmail.com, Type: passenger, Connection: 127.0.0.1, Time: 2024-11-29 21:45:40.159802
+
+2024-11-29 21:46:03,193 - INFO - Logged in: saudj@gmail.com, Type: driver, Connection: 127.0.0.1, Time: 2024-11-29 21:46:03.193830
+
+2024-12-04 17:22:22,447 - INFO - Logged in: shaheerbadar35@gmail.com, Type: driver, Connection: 127.0.0.1, Time: 2024-12-04 17:22:22.447092
+
+2024-12-04 17:22:53,803 - INFO - Logged in: asd@gmail.com, Type: passenger, Connection: 127.0.0.1, Time: 2024-12-04 17:22:53.803362
+
+2024-12-04 17:23:34,784 - INFO - Logged in: shaheerbadar35@gmail.com, Type: driver, Connection: 127.0.0.1, Time: 2024-12-04 17:23:34.784775
+
+2024-12-04 17:24:24,846 - ERROR - Failed to send OTP: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa5998e716fsm729078366b.108 - gsmtp')

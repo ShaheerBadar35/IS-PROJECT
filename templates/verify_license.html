@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Verify License</h2>
+<p>To accept this ride, please provide your license for verification.</p>
+<form method="POST">
+    <input type="text" name="license" placeholder="Enter License Number" required>
+    <input type="hidden" name="ride_id" value="{{ ride_id }}">
+    <button type="submit">Verify and Accept Ride</button>
+</form>
+{% endblock %}

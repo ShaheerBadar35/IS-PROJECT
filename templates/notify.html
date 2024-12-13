@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Ride Accepted</h2>
+<p>Your ride has been accepted by the driver.</p>
+<p><strong>Driver Name:</strong> {{ ride['driver_name'] }}</p>
+<p><strong>Contact:</strong> {{ ride['driver_contact'] }}</p>
+<p><strong>License:</strong> {{ ride['driver_license'] }}</p>
+<a href="/passenger">Go to Dashboard</a>
+{% endblock %}
+

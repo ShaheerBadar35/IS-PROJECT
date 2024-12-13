@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Register</h2>
+<form method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    
+    <label for="role">Role:</label>
+    <select id="role" name="role" required>
+        <option value="passenger">Passenger</option>
+        <option value="driver">Driver</option>
+    </select>
+    
+    <div id="driver-info" style="display: none;">
+        <label for="contact">Contact:</label>
+        <input type="text" id="contact" name="contact">
+        
+        <label for="license">License:</label>
+        <input type="text" id="license" name="license">
+    </div>
+    
+    <button type="submit">Register</button>
+</form>
+<script>
+    const roleSelect = document.getElementById('role');
+    const driverInfo = document.getElementById('driver-info');
+
+    roleSelect.addEventListener('change', () => {
+        if (roleSelect.value === 'driver') {
+            driverInfo.style.display = 'block';
+        } else {
+            driverInfo.style.display = 'none';
+        }
+    });
+</script>
+{% endblock %}
